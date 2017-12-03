@@ -478,7 +478,8 @@
   #define DELTA_PRINTABLE_RADIUS 80.0 // mm
 
   // Center-to-center distance of the holes in the diagonal push rods.
-  #define DELTA_DIAGONAL_ROD 231.0 // mm
+  //#define DELTA_DIAGONAL_ROD 231.0 // mm original
+  #define DELTA_DIAGONAL_ROD 224.07
 
   // height from z=0 to home position
   #define DELTA_HEIGHT 328.1 // get this value from auto calibrate
