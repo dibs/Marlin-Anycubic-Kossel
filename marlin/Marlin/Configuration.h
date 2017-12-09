@@ -269,7 +269,7 @@
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 5
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
 #define DUMMY_THERMISTOR_998_VALUE 25
@@ -479,15 +479,16 @@
 
   // Center-to-center distance of the holes in the diagonal push rods.
   //#define DELTA_DIAGONAL_ROD 231.0 // mm original
-  #define DELTA_DIAGONAL_ROD 224.07
+  #define DELTA_DIAGONAL_ROD 220.5
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 328.1 // get this value from auto calibrate
+  #define DELTA_HEIGHT 322.65
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
   // Horizontal distance bridged by diagonal push rods when effector is centered.
-  #define DELTA_RADIUS 100.9 //mm  Get this value from auto calibrate
+  //#define DELTA_RADIUS 100.9 //mm  Get this value from auto calibrate
+  #define DELTA_RADIUS 99.5
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
